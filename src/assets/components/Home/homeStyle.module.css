@@ -83,6 +83,7 @@
 }
 .form{
     height: 350px;
+    overflow-y: scroll;
     background-color: #fff;
     border-radius: 7px;
     order: 3px solid #999;
@@ -129,7 +130,9 @@
 .checkbox{
     margin-left: 15px;
     margin-right: 10px;
-
+}
+.completedTask{
+    color: #999;
 }
 .completedTask {
     text-decoration: line-through;
