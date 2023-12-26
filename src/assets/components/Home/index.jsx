@@ -83,8 +83,7 @@ function Home() {
             ADD
           </button>
         </div>
-        <div className={styles.form}>
-          <div className={styles.formhead}>
+        <div className={styles.formhead}>
             <div className={styles.taskleft}>
               <div className={styles.count}>
                 {tasks.filter((task) => !task.completed).length}
@@ -97,7 +96,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <hr className={styles.divider} />
+        <div className={styles.form}>
           <div className={styles.taskList}>
             {tasks.length === 0 ? (
               <div className={styles.emptyTask}>Empty task</div>

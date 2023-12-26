@@ -81,17 +81,19 @@
     border-radius: 7px;
     border: none;
 }
+.formhead{
+    background-color: #fff;
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
 .form{
     height: 350px;
     overflow-y: scroll;
     background-color: #fff;
-    border-radius: 7px;
+    border-radius: 0px 0px 7px 7px;
     order: 3px solid #999;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-}
-.formhead{
-    display: flex;
-    justify-content: space-between;
 }
 .taskleft{
     display: flex;
