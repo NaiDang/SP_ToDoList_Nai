@@ -1,0 +1,148 @@
+.container {
+    background-color: #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.content {
+    width: 35%;
+    top: 40px;
+    position: absolute;
+    left: 33%;
+}
+
+.header {
+    height: 290px;
+    background: linear-gradient(300deg, deepskyblue, darkviolet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; 
+    position: relative;
+}
+
+.title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+}
+.theme{
+    width: 35px;
+    height: 35px;
+    background: #ccc;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 93%;
+    cursor: pointer;
+}
+.iconMoon{
+    font-size: 20px;
+    
+}
+.inputField{
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    color: #999;
+}
+.inputField:focus {
+    outline: none;
+    border: none;
+  }
+.addIcon{
+   color: #999;
+   position: absolute;
+   z-index: 1;
+   margin-left: 5px;
+}
+.add {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .submitButton{
+    position: absolute;
+    left: 90%;
+    cursor: pointer; 
+    background: none;
+    border: none;
+    color: #999;
+    font-weight: bold;
+  }
+.add input{
+    width: 100%;
+    padding: 20px 130px 20px 40px;
+    border-radius: 7px;
+    border: none;
+}
+.form{
+    height: 350px;
+    background-color: #fff;
+    border-radius: 7px;
+    order: 3px solid #999;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.formhead{
+    display: flex;
+    justify-content: space-between;
+}
+.taskleft{
+    display: flex;
+    color: #999;
+}
+.count{
+    margin: 10px 5px 5px 15px;
+}
+.textTaskLeft{
+    margin: 10px 0px;
+}
+.clearText{
+    cursor: pointer;
+    margin: 10px;
+    color: #999;
+}
+.divider {
+    border-top: 1px solid #ccc; 
+    margin-top: 10px;
+}
+
+.tasks{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.emptyTask{
+    font-size: 16px;
+    color: #999;
+    margin-left: 42%;
+    margin-top: 20%;
+}
+.taskItem{
+    display: flex;
+}
+.checkbox{
+    margin-left: 15px;
+    margin-right: 10px;
+
+}
+.completedTask {
+    text-decoration: line-through;
+  }
+.iconEdit, .iconDelete, .iconCheck{
+    margin-right: 10px;
+    color: #999;
+}
+
+.tastName input:focus {
+    outline: none;
+}
+
+.tastName input {
+    border: none;
+}
